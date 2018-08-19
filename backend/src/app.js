@@ -29,8 +29,16 @@ app.use(cookieParser())
 
 // Routing
 const index = require('./routes/index')
+const users = require('./routes/users')
+const foods = require('./routes/foods')
+const exercises = require('./routes/exercises')
+const progress = require('./routes/progress')
 
 app.use('/api', index)
+app.use('/api/users', users)
+app.use('/api/foods', foods)
+app.use('/api/exercises', exercises)
+app.use('/api/progress', progress)
 
 app.use((err, req, res, _) => {
   let status = 500
