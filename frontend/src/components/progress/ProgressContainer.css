@@ -1,0 +1,9 @@
+.ProgressContainer .Form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ProgressContainer .recharts-wrapper {
+  padding: 20px;
+  background: var(--white);
+}

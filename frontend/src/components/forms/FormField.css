@@ -1,0 +1,42 @@
+.FormField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.FormField input {
+    padding: 5px 20px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid var(--silver);
+    border-radius: 5px;
+    color: var(--battleship_grey);
+    font-size: 15px;
+    outline: 0;
+}
+
+.FormField input.focused {
+    outline: none;
+    border-color: var(--cornflower);
+}
+
+.FormField input.disabled {
+    opacity: 0.7;
+}
+
+.FormField input.errorInput {
+    border-color: var(--red);
+}
+
+.FormField .errorInput,
+.FormField .errorInput.focused {
+    border-color: var(--red);
+}
+
+.FormField .error {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-size: 12px;
+    color: var(--red);
+}

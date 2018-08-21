@@ -1,0 +1,15 @@
+.NavigationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  background: var(--custom_color_1);
+  color: var(--white);
+}
+
+.NavigationContainer .title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  color: var(--white);
+}

@@ -1,1 +1,32 @@
-# fitness-helper-ajs
+# fitness-helper
+
+## How to use
+
+
+### Prerequisites
+#### Cloning the repo
+```
+  git clone https://github.com/ayanchevski/fitness-helper-ajs.git
+  cd ./fitness-helper
+```
+
+#### Set up Mongodb
+Installation https://docs.mongodb.com/manual/installation/
+Start the database @localhost on the default port
+create `fhelper` database, which the nodejs backend will use
+
+#### Start the web Server
+```
+  cd ./backend
+  npm install
+  npm run start
+```
+
+#### Start the frontent app
+```
+  cd ./frontend
+  npm install
+  npm run start
+```
+
+Your Fitnes Helper is now at localhost:3000

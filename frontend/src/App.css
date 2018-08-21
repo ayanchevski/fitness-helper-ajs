@@ -1,0 +1,7 @@
+.App {
+  display: flex;
+  flex: 1;
+  min-height: 100%;
+  background-color: var(--backgroundColor);
+  font-family: Lato,sans-serif;
+}

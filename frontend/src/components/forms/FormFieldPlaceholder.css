@@ -1,0 +1,14 @@
+.FormFieldPlaceholder {
+  position: absolute;
+  margin-left: 20px;
+  color: var(--battleship_grey);
+  font-size: 15px;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: all .3s ease;
+}
+
+.FormFieldPlaceholder.focused {
+  transform: translateY(5px);
+  font-size: 10px;
+}

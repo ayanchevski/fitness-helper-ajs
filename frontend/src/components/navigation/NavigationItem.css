@@ -1,0 +1,17 @@
+.NavigationItem {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.NavigationItem svg {
+  margin-right: 20px;
+}
+
+.NavigationItem.active,
+.NavigationItem:hover {
+  background: var(--tealish);
+}

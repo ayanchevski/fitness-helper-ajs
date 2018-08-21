@@ -1,0 +1,19 @@
+.Form {
+    width: 500px;
+    position: relative;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background: var(--white);
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading.noMargin {
+    margin-bottom: 0;
+}

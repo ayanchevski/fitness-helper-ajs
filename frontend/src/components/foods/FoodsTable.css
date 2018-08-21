@@ -1,0 +1,16 @@
+.FoodsTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  padding: 30px;
+}
+
+.FoodsTable .name {
+  font-size: 20px;
+  margin-bottom: 20px
+}
+
+.FoodsTable .rt-th {
+  outline: 0;
+}
