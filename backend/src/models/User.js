@@ -12,8 +12,7 @@ const schema = mongoose.Schema({
   password: { type: String, required: true, set: encrypt },
   registrationDate: { type: Date, default: Date.now }
 })
-/* todo: consider virtual getters - darn usefull */
-/* todo: consider using middlewear - http://mongoosejs.com/docs/middleware.html */
+
 schema.virtual('id').get(function () {
   return this._id.toHexString()
 })

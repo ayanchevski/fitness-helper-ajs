@@ -10,8 +10,7 @@ const schema = mongoose.Schema({
   dateAdded: { type: Number, default: Date.now },
   image: { type: String }
 })
-/* todo: consider virtual getters - darn usefull */
-/* todo: consider using middlewear - http://mongoosejs.com/docs/middleware.html */
+
 schema.virtual('id').get(function () {
   return this._id.toHexString()
 })

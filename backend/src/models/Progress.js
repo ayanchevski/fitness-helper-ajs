@@ -5,8 +5,7 @@ const schema = mongoose.Schema({
   date: { type: Date, default: Date.now, require: true},
   weight: { type: Number, required: true },
 })
-/* todo: consider virtual getters - darn usefull */
-/* todo: consider using middlewear - http://mongoosejs.com/docs/middleware.html */
+
 schema.virtual('id').get(function () {
   return this._id.toHexString()
 })
